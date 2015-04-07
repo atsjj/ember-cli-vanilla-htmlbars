@@ -1,0 +1,26 @@
+{
+  "name": "ember-cli-vanilla-htmlbars",
+  "version": "0.0.0",
+  "description": "Vanilla HTMLBars compiler without an Ember dependency.",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "github.com/atsjj/ember-cli-vanilla-htmlbars"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Steve Jabour <steve@jabour.me>",
+  "license": "MIT",
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "main": "ember-addon-main.js"
+  },
+  "dependencies": {
+    "broccoli-filter": "^0.1.6",
+    "simple-dom": "^0.2.2"
+  }
+}
